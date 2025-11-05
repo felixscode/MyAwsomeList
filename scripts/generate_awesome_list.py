@@ -271,8 +271,8 @@ Respond ONLY with valid JSON in this exact format:
             categories[category].sort(key=lambda x: x["stars"], reverse=True)
 
         # Build README content
-        readme_content = "# My Awesome List\n\n"
-        readme_content += "> A curated list of my GitHub stars, automatically organized and described by AI 🤖\n\n"
+        readme_content = "# My Awesome List [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)\n\n"
+        readme_content += "> A curated list of my GitHub stars, automatically organized and described by AI\n\n"
         readme_content += f"*Last updated: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')} | Total repos: {len(cache)}*\n\n"
 
         # Table of contents
@@ -293,7 +293,7 @@ Respond ONLY with valid JSON in this exact format:
             readme_content += "\n"
 
         readme_content += "---\n\n"
-        readme_content += "*Generated automatically by [MyAwsomeList](https://github.com/felixscode/MyAwsomeList) using Claude API*\n"
+        readme_content += "*Generated automatically by [MyAwsomeList](https://github.com/felixscode/MyAwsomeList) using Claude API read SETUP.md to learn more*\n"
 
         # Write to file
         with open(self.readme_file, 'w') as f:

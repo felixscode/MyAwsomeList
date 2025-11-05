@@ -3,38 +3,33 @@
 # If this file doesn't exist, the LLM will automatically determine categories
 
 categories:
-  - name: "Web Development"
-    keywords: ["web", "frontend", "backend", "html", "css", "javascript", "react", "vue", "angular"]
+  - name: "AI & Machine Learning"
+    description: "Large language models, AI agents, prompt engineering, AI infrastructure, NLP, and general machine learning tools,Algorithmic trading, financial AI, stock market analysis, and trading bots"
 
-  - name: "Machine Learning & AI"
-    keywords: ["ml", "ai", "machine-learning", "deep-learning", "neural-network", "tensorflow", "pytorch"]
 
-  - name: "DevOps & Infrastructure"
-    keywords: ["docker", "kubernetes", "k8s", "ci/cd", "terraform", "ansible", "jenkins"]
+  - name: "Reinforcement Learning"
+    description: "RL frameworks, training environments, algorithms, and agent development"
 
-  - name: "Data Science"
-    keywords: ["data", "analytics", "visualization", "pandas", "jupyter", "notebook"]
 
-  - name: "Mobile Development"
-    keywords: ["mobile", "ios", "android", "react-native", "flutter", "swift", "kotlin"]
+  - name: "Developer Tools"
+    description: "IDEs, coding assistants, terminal tools, productivity enhancers, and development utilities"
 
-  - name: "Backend & APIs"
-    keywords: ["api", "rest", "graphql", "microservices", "server", "backend"]
 
-  - name: "Databases"
-    keywords: ["database", "sql", "nosql", "postgres", "mongodb", "redis"]
+  - name: "Data Science & Analytics"
+    description: "Data processing, visualization, forecasting, analytics, and data manipulation tools"
 
-  - name: "Security"
-    keywords: ["security", "encryption", "authentication", "oauth", "cryptography"]
 
-  - name: "Programming Languages"
-    keywords: ["python", "javascript", "go", "rust", "java", "c++"]
+  - name: "Robotics & Autonomous Systems"
+    description: "Robot learning, simulation environments, autonomous driving, and embodied AI"
 
-  - name: "Tools & Utilities"
-    keywords: ["cli", "tool", "utility", "productivity", "automation"]
 
-  - name: "Documentation"
-    keywords: ["docs", "documentation", "guide", "tutorial", "learning"]
+  - name: "Web & Desktop Development"
+    description: "Web frameworks, desktop applications, browsers, cross-platform tools, and UI development"
 
-  - name: "Testing"
-    keywords: ["test", "testing", "qa", "jest", "pytest", "selenium"]
+
+  - name: "Finance & Trading"
+    description: "Algorithmic trading, financial AI, stock market analysis, and trading bots"
+
+
+  - name: "Productivity & Utilities"
+    description: "Note-taking tools, general utilities, productivity apps, and miscellaneous tools"
