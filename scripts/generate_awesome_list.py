@@ -4,21 +4,34 @@ GitHub Stars to Awesome List Generator
 Uses Anthropic's Claude API to automatically categorize and describe starred repositories.
 """
 
+import argparse
 import json
 import os
 import sys
 from datetime import datetime
 from typing import Dict, List, Optional
-import requests
-import yaml
-from anthropic import Anthropic
 
 
 class AwesomeListGenerator:
-    def __init__(self):
+    def __init__(self, dry_run: bool = False, limit: Optional[int] = None):
+        # Import dependencies here so --help works without them installed
+        try:
+            import requests
+            import yaml
+            from anthropic import Anthropic
+            self.requests = requests
+            self.yaml = yaml
+            self.Anthropic = Anthropic
+        except ImportError as e:
+            print(f"❌ Missing required dependency: {e}")
+            print("Install dependencies with: pip install -r requirements.txt")
+            sys.exit(1)
+
         self.github_token = os.environ.get("GITHUB_TOKEN")
         self.anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY")
         self.github_username = os.environ.get("GITHUB_USERNAME")
+        self.dry_run = dry_run
+        self.limit = limit
 
         if not self.github_token:
             raise ValueError("GITHUB_TOKEN environment variable is required")
@@ -28,7 +41,13 @@ class AwesomeListGenerator:
         self.anthropic = Anthropic(api_key=self.anthropic_api_key)
         self.cache_file = ".cache"
         self.categories_file = ".categories"
-        self.readme_file = "README.md"
+        self.readme_file = "README.md" if not dry_run else "README.dry-run.md"
+
+        if self.dry_run:
+            print("🧪 DRY RUN MODE - No files will be modified")
+            if self.limit:
+                print(f"   Limiting processing to {self.limit} new repos")
+            print()
 
     def fetch_github_stars(self) -> List[Dict]:
         """Fetch all starred repositories from GitHub."""
@@ -50,7 +69,7 @@ class AwesomeListGenerator:
             url = "https://api.github.com/user/starred"
 
         while True:
-            response = requests.get(
+            response = self.requests.get(
                 url,
                 headers=headers,
                 params={"page": page, "per_page": 100}
@@ -81,6 +100,10 @@ class AwesomeListGenerator:
 
     def save_cache(self, cache: Dict):
         """Save the cache to disk."""
+        if self.dry_run:
+            print(f"[DRY RUN] Would save cache with {len(cache)} entries to {self.cache_file}")
+            return
+
         with open(self.cache_file, 'w') as f:
             json.dump(cache, f, indent=2)
 
@@ -88,7 +111,7 @@ class AwesomeListGenerator:
         """Load predefined categories if available."""
         if os.path.exists(self.categories_file):
             with open(self.categories_file, 'r') as f:
-                return yaml.safe_load(f)
+                return self.yaml.safe_load(f)
         return None
 
     def categorize_with_llm(self, repo: Dict, predefined_categories: Optional[Dict] = None) -> Dict:
@@ -160,6 +183,7 @@ Respond ONLY with valid JSON in this exact format:
         """Process only new stars that aren't in the cache."""
         new_count = 0
         updated_count = 0
+        processed_new = 0
 
         for repo in stars:
             repo_full_name = repo["full_name"]
@@ -172,18 +196,32 @@ Respond ONLY with valid JSON in this exact format:
                     updated_count += 1
                 continue
 
+            # Check if we've hit the limit in dry run mode
+            if self.dry_run and self.limit and processed_new >= self.limit:
+                new_count += 1  # Count it but don't process
+                continue
+
             # New star - process it
             print(f"Processing new star: {repo_full_name}")
             result = self.categorize_with_llm(repo, predefined_categories)
             cache[repo_full_name] = result
             new_count += 1
+            processed_new += 1
 
-        print(f"\nProcessed {new_count} new stars, updated {updated_count} existing stars")
+        if self.dry_run and self.limit and new_count > processed_new:
+            print(f"\n[DRY RUN] Processed {processed_new} of {new_count} new stars (limit: {self.limit})")
+            print(f"[DRY RUN] {new_count - processed_new} new stars were skipped due to limit")
+        else:
+            print(f"\nProcessed {new_count} new stars, updated {updated_count} existing stars")
+
         return cache
 
     def generate_readme(self, cache: Dict):
         """Generate the README.md awesome list."""
-        print("\nGenerating README.md...")
+        if self.dry_run:
+            print(f"\n[DRY RUN] Generating {self.readme_file}...")
+        else:
+            print("\nGenerating README.md...")
 
         # Organize by category
         categories = {}
@@ -233,7 +271,11 @@ Respond ONLY with valid JSON in this exact format:
         with open(self.readme_file, 'w') as f:
             f.write(readme_content)
 
-        print(f"README.md generated with {len(sorted_categories)} categories")
+        if self.dry_run:
+            print(f"[DRY RUN] {self.readme_file} generated with {len(sorted_categories)} categories")
+            print(f"[DRY RUN] Preview the generated file: cat {self.readme_file}")
+        else:
+            print(f"README.md generated with {len(sorted_categories)} categories")
 
     def run(self):
         """Main execution flow."""
@@ -264,14 +306,65 @@ Respond ONLY with valid JSON in this exact format:
         self.generate_readme(cache)
 
         print("\n" + "=" * 60)
-        print("✅ Awesome list generation complete!")
+        if self.dry_run:
+            print("✅ Dry run complete! No actual files were modified.")
+            print(f"   Cache would be saved to: {self.cache_file}")
+            print(f"   README preview saved to: {self.readme_file}")
+        else:
+            print("✅ Awesome list generation complete!")
         print("=" * 60)
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser(
+        description="Generate an awesome list from your GitHub stars using AI",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  # Normal run (will modify files)
+  python generate_awesome_list.py
+
+  # Dry run (no files modified, generates README.dry-run.md)
+  python generate_awesome_list.py --dry-run
+
+  # Dry run with limit (process only first 3 new repos)
+  python generate_awesome_list.py --dry-run --limit 3
+
+  # Verbose dry run
+  python generate_awesome_list.py --dry-run --verbose
+        """
+    )
+
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Run without modifying cache or README.md (generates README.dry-run.md instead)"
+    )
+
+    parser.add_argument(
+        "--limit",
+        type=int,
+        metavar="N",
+        help="Limit processing to N new repositories (useful with --dry-run for testing)"
+    )
+
+    parser.add_argument(
+        "-v", "--verbose",
+        action="store_true",
+        help="Enable verbose output"
+    )
+
+    args = parser.parse_args()
+
     try:
-        generator = AwesomeListGenerator()
+        generator = AwesomeListGenerator(dry_run=args.dry_run, limit=args.limit)
         generator.run()
+    except KeyboardInterrupt:
+        print("\n\n❌ Interrupted by user")
+        sys.exit(1)
     except Exception as e:
         print(f"❌ Error: {e}")
+        if args.verbose:
+            import traceback
+            traceback.print_exc()
         sys.exit(1)

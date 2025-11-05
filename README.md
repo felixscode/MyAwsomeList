@@ -55,9 +55,27 @@ If `.categories` doesn't exist, Claude will automatically determine appropriate 
 #### Locally
 
 ```bash
+# Install dependencies
 pip install -r requirements.txt
+
+# Normal run (will modify files)
 python scripts/generate_awesome_list.py
+
+# Dry run (test without modifying files)
+python scripts/generate_awesome_list.py --dry-run
+
+# Dry run with limit (process only first 3 new repos for quick testing)
+python scripts/generate_awesome_list.py --dry-run --limit 3
+
+# Get help
+python scripts/generate_awesome_list.py --help
 ```
+
+**Dry Run Mode:**
+- Use `--dry-run` to test the script without modifying `.cache` or `README.md`
+- Generates `README.dry-run.md` instead so you can preview the output
+- Use `--limit N` to process only N new repositories (saves API costs during testing)
+- Perfect for testing before running the full workflow
 
 ## How It Works
 
