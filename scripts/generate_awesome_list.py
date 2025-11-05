@@ -10,6 +10,7 @@ import os
 import sys
 from datetime import datetime
 from typing import Dict, List, Optional
+from dotenv import load_dotenv
 
 
 class AwesomeListGenerator:
@@ -27,12 +28,13 @@ class AwesomeListGenerator:
             print("Install dependencies with: pip install -r requirements.txt")
             sys.exit(1)
 
+        if os.path.exists("./.env"):
+            load_dotenv(".env")
         self.github_token = os.environ.get("GITHUB_TOKEN")
         self.anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY")
         self.github_username = os.environ.get("GITHUB_USERNAME")
         self.dry_run = dry_run
         self.limit = limit
-
         if not self.github_token:
             raise ValueError("GITHUB_TOKEN environment variable is required")
         if not self.anthropic_api_key:
