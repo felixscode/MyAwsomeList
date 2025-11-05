@@ -34,16 +34,29 @@ cp .env.example .env
 # Edit .env with your actual tokens
 ```
 
-#### Predefined Categories
+#### Categories Configuration (Recommended)
 
-If you want to use predefined categories instead of letting AI decide:
+**IMPORTANT**: A `.categories` file is already included with 8 well-organized categories:
+
+- AI & Machine Learning
+- Reinforcement Learning
+- Developer Tools
+- Data Science & Analytics
+- Robotics & Autonomous Systems
+- Web & Desktop Development
+- Finance & Trading
+- Productivity & Utilities
+
+The LLM will **only** choose from these predefined categories, preventing category fragmentation.
+
+**To customize categories:**
 
 ```bash
-cp .categories.example .categories
-# Edit .categories to customize your categories
+# Edit .categories to add/modify/remove categories
+nano .categories
 ```
 
-If `.categories` doesn't exist, Claude will automatically determine appropriate categories.
+**Without `.categories`**: Claude will create categories dynamically, which often results in too many similar categories (e.g., "AI Development", "AI Infrastructure", "Artificial Intelligence" as separate categories).
 
 ### 4. Run
 
@@ -80,13 +93,14 @@ python scripts/generate_awesome_list.py --help
 ## How It Works
 
 1. **Fetch Stars**: Retrieves all your GitHub starred repositories
-2. **Cache Check**: Compares with `.cache` to find new stars
-3. **AI Processing**: For each new star, Claude:
+2. **Load Categories**: Loads predefined categories from `.categories` file
+3. **Cache Check**: Compares with `.cache` to find new stars
+4. **AI Processing**: For each new star, Claude:
    - Analyzes the repo (description, topics, language, stars)
-   - Determines the best category
+   - Selects the best category from your predefined list
    - Generates a concise, helpful description
-4. **Generate List**: Creates/updates `README.md` with organized list
-5. **Commit**: GitHub Actions commits changes automatically
+5. **Generate List**: Creates/updates `README.md` with organized list
+6. **Commit**: GitHub Actions commits changes automatically
 
 ## Project Structure
 

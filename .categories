@@ -1,0 +1,35 @@
+# Predefined categories for GitHub Stars Awesome List
+# The LLM will ONLY choose from these categories (no new categories allowed)
+
+categories:
+  - name: "AI & Machine Learning"
+    description: "Large language models, AI agents, prompt engineering, AI infrastructure, NLP, and general machine learning tools"
+    keywords: ["ai", "llm", "claude", "gpt", "openai", "anthropic", "machine-learning", "ml", "neural", "agent", "prompt", "nlp", "chatbot"]
+
+  - name: "Reinforcement Learning"
+    description: "RL frameworks, training environments, algorithms, and agent development"
+    keywords: ["reinforcement", "rl", "gymnasium", "gym", "agent", "reward", "policy", "q-learning", "dqn"]
+
+  - name: "Developer Tools"
+    description: "IDEs, coding assistants, terminal tools, productivity enhancers, and development utilities"
+    keywords: ["ide", "editor", "coding", "assistant", "productivity", "terminal", "cli", "development", "tools"]
+
+  - name: "Data Science & Analytics"
+    description: "Data processing, visualization, forecasting, analytics, and data manipulation tools"
+    keywords: ["data", "analytics", "visualization", "forecast", "pandas", "numpy", "jupyter", "notebook", "analysis"]
+
+  - name: "Robotics & Autonomous Systems"
+    description: "Robot learning, simulation environments, autonomous driving, and embodied AI"
+    keywords: ["robot", "robotics", "autonomous", "simulation", "embodied", "driving", "vehicle"]
+
+  - name: "Web & Desktop Development"
+    description: "Web frameworks, desktop applications, browsers, cross-platform tools, and UI development"
+    keywords: ["web", "frontend", "backend", "browser", "desktop", "app", "application", "ui", "framework", "react", "vue"]
+
+  - name: "Finance & Trading"
+    description: "Algorithmic trading, financial AI, stock market analysis, and trading bots"
+    keywords: ["finance", "trading", "stock", "market", "algorithmic", "crypto", "investment"]
+
+  - name: "Productivity & Utilities"
+    description: "Note-taking tools, general utilities, productivity apps, and miscellaneous tools"
+    keywords: ["productivity", "notes", "obsidian", "utility", "tool", "organization", "knowledge"]

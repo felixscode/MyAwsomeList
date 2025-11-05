@@ -10,7 +10,6 @@ import os
 import sys
 from datetime import datetime
 from typing import Dict, List, Optional
-from dotenv import load_dotenv
 
 
 class AwesomeListGenerator:
@@ -20,16 +19,17 @@ class AwesomeListGenerator:
             import requests
             import yaml
             from anthropic import Anthropic
+            from dotenv import load_dotenv
             self.requests = requests
             self.yaml = yaml
             self.Anthropic = Anthropic
+            # Load .env file if it exists
+            if os.path.exists("./.env"):
+                load_dotenv(".env")
         except ImportError as e:
             print(f"❌ Missing required dependency: {e}")
             print("Install dependencies with: pip install -r requirements.txt")
             sys.exit(1)
-
-        if os.path.exists("./.env"):
-            load_dotenv(".env")
         self.github_token = os.environ.get("GITHUB_TOKEN")
         self.anthropic_api_key = os.environ.get("ANTHROPIC_API_KEY")
         self.github_username = os.environ.get("GITHUB_USERNAME")
@@ -124,15 +124,42 @@ class AwesomeListGenerator:
         language = repo.get("language", "Unknown")
         stars = repo.get("stargazers_count", 0)
 
-        # Build the prompt
-        category_instruction = ""
+        # Build the prompt with strict category enforcement
         if predefined_categories and "categories" in predefined_categories:
-            categories_list = [cat["name"] for cat in predefined_categories["categories"]]
-            category_instruction = f"\nAvailable categories: {', '.join(categories_list)}\nChoose the most appropriate category from the list above, or create a new one if none fit well."
-        else:
-            category_instruction = "\nCreate an appropriate category name for this repository."
+            # Build detailed category list with descriptions
+            category_details = []
+            for cat in predefined_categories["categories"]:
+                cat_name = cat["name"]
+                cat_desc = cat.get("description", "")
+                category_details.append(f"- {cat_name}: {cat_desc}")
 
-        prompt = f"""Analyze this GitHub repository and provide:
+            categories_text = "\n".join(category_details)
+
+            prompt = f"""Analyze this GitHub repository and categorize it.
+
+Repository Information:
+- Name: {repo_name}
+- Description: {description}
+- Topics: {topics}
+- Language: {language}
+- Stars: {stars}
+
+IMPORTANT: You MUST choose EXACTLY ONE category from this list. Do NOT create new categories.
+
+Available Categories:
+{categories_text}
+
+Your tasks:
+1. Select the MOST appropriate category from the list above (use exact category name)
+2. Write a concise 1-2 sentence description explaining what the repository does and why it's useful
+
+Respond ONLY with valid JSON in this exact format:
+{{"category": "Category Name", "description": "Your concise description here."}}
+
+Remember: Use the EXACT category name from the list above."""
+        else:
+            # Fallback if no categories file exists
+            prompt = f"""Analyze this GitHub repository and provide:
 1. A category name (e.g., "Web Development", "Machine Learning", "DevOps", etc.)
 2. A concise 1-2 sentence description that explains what the repository does and why it's useful
 
@@ -141,7 +168,6 @@ Description: {description}
 Topics: {topics}
 Language: {language}
 Stars: {stars}
-{category_instruction}
 
 Respond ONLY with valid JSON in this exact format:
 {{"category": "Category Name", "description": "Your concise description here."}}"""
@@ -289,10 +315,18 @@ Respond ONLY with valid JSON in this exact format:
         cache = self.load_cache()
         print(f"Loaded cache with {len(cache)} existing entries")
 
-        # Load predefined categories if available
+        # Load predefined categories (REQUIRED for consistent categorization)
         predefined_categories = self.load_categories()
         if predefined_categories:
-            print(f"Loaded {len(predefined_categories.get('categories', []))} predefined categories")
+            num_cats = len(predefined_categories.get('categories', []))
+            print(f"✓ Loaded {num_cats} predefined categories from {self.categories_file}")
+            # Show category names
+            cat_names = [cat["name"] for cat in predefined_categories.get('categories', [])]
+            print(f"  Categories: {', '.join(cat_names)}")
+        else:
+            print(f"⚠ WARNING: No .categories file found!")
+            print(f"  The LLM will create categories dynamically (may result in many categories)")
+            print(f"  Recommended: Copy .categories.example to .categories and customize it")
 
         # Fetch all stars from GitHub
         stars = self.fetch_github_stars()
