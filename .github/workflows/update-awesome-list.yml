@@ -1,0 +1,66 @@
+name: Update Awesome List
+
+on:
+  # Run daily at 00:00 UTC
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+  # Run on push to main branch (optional)
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  update-list:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Generate awesome list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+        run: |
+          python scripts/generate_awesome_list.py
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code README.md .cache || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md .cache
+          git commit -m "🤖 Update awesome list [$(date +'%Y-%m-%d %H:%M UTC')]"
+          git push
+
+      - name: Summary
+        run: |
+          echo "✅ Awesome list update complete!" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Check the [README.md](../README.md) for the updated list." >> $GITHUB_STEP_SUMMARY

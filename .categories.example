@@ -1,0 +1,40 @@
+# Optional: Predefined categories for your starred repositories
+# Rename this file to .categories to use it
+# If this file doesn't exist, the LLM will automatically determine categories
+
+categories:
+  - name: "Web Development"
+    keywords: ["web", "frontend", "backend", "html", "css", "javascript", "react", "vue", "angular"]
+
+  - name: "Machine Learning & AI"
+    keywords: ["ml", "ai", "machine-learning", "deep-learning", "neural-network", "tensorflow", "pytorch"]
+
+  - name: "DevOps & Infrastructure"
+    keywords: ["docker", "kubernetes", "k8s", "ci/cd", "terraform", "ansible", "jenkins"]
+
+  - name: "Data Science"
+    keywords: ["data", "analytics", "visualization", "pandas", "jupyter", "notebook"]
+
+  - name: "Mobile Development"
+    keywords: ["mobile", "ios", "android", "react-native", "flutter", "swift", "kotlin"]
+
+  - name: "Backend & APIs"
+    keywords: ["api", "rest", "graphql", "microservices", "server", "backend"]
+
+  - name: "Databases"
+    keywords: ["database", "sql", "nosql", "postgres", "mongodb", "redis"]
+
+  - name: "Security"
+    keywords: ["security", "encryption", "authentication", "oauth", "cryptography"]
+
+  - name: "Programming Languages"
+    keywords: ["python", "javascript", "go", "rust", "java", "c++"]
+
+  - name: "Tools & Utilities"
+    keywords: ["cli", "tool", "utility", "productivity", "automation"]
+
+  - name: "Documentation"
+    keywords: ["docs", "documentation", "guide", "tutorial", "learning"]
+
+  - name: "Testing"
+    keywords: ["test", "testing", "qa", "jest", "pytest", "selenium"]
