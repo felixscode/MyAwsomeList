@@ -11,7 +11,7 @@
     "category": "AI & Machine Learning",
     "description": "PyTorch Geometric is a comprehensive library for deep learning on graph-structured data, providing efficient implementations of graph neural networks and related algorithms. It enables researchers and practitioners to easily develop and train advanced graph-based machine learning models within the PyTorch ecosystem.",
     "url": "https://github.com/pyg-team/pytorch_geometric",
-    "stars": 23471,
+    "stars": 23473,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:20.038414"
   },
@@ -19,7 +19,7 @@
     "category": "AI & Machine Learning",
     "description": "TOON is a specialized data format designed to optimize token efficiency for large language model prompts, reducing token usage while maintaining structured data representation. It provides a TypeScript implementation and specification for more compact prompt serialization.",
     "url": "https://github.com/toon-format/toon",
-    "stars": 22658,
+    "stars": 22676,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:49:22.122700"
   },
@@ -27,7 +27,7 @@
     "category": "Developer Tools",
     "description": "A proxy service that provides unified access to multiple AI services like Claude, OpenAI, and Gemini through a single interface, enabling developers to easily integrate and switch between different AI models with reduced costs and seamless tool compatibility.",
     "url": "https://github.com/Wei-Shaw/claude-relay-service",
-    "stars": 8166,
+    "stars": 8176,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:49:24.172675"
   },
@@ -35,7 +35,7 @@
     "category": "AI & Machine Learning",
     "description": "Agent Lightning is a framework for developing and training AI agents, providing infrastructure and tools for building advanced agentic AI systems using large language models and reinforcement learning techniques.",
     "url": "https://github.com/microsoft/agent-lightning",
-    "stars": 14792,
+    "stars": 14846,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:25.651090"
   },
@@ -43,7 +43,7 @@
     "category": "Developer Tools",
     "description": "A comprehensive multi-platform tool for performing online reconnaissance by analyzing and finding a person's social media profiles across multiple websites. It provides API, CLI, and web app interfaces for security researchers, penetration testers, and OSINT practitioners to gather digital identity information.",
     "url": "https://github.com/qeeqbox/social-analyzer",
-    "stars": 21103,
+    "stars": 21115,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:49:28.341517"
   },
@@ -59,7 +59,7 @@
     "category": "AI & Machine Learning",
     "description": "A collection of Jupyter notebooks demonstrating practical use cases and techniques for working with Claude, an advanced language model. These cookbooks provide developers and researchers with example code and approaches for leveraging AI in various applications.",
     "url": "https://github.com/anthropics/claude-cookbooks",
-    "stars": 32953,
+    "stars": 33000,
     "language": "Jupyter Notebook",
     "processed_at": "2025-11-05T13:49:32.729419"
   },
@@ -67,7 +67,7 @@
     "category": "AI & Machine Learning",
     "description": "A comprehensive repository offering in-depth tutorials and resources for working with Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and AI agent applications. The project provides practical insights and techniques for developers and researchers interested in advanced AI technologies.",
     "url": "https://github.com/patchy631/ai-engineering-hub",
-    "stars": 29770,
+    "stars": 29849,
     "language": "Jupyter Notebook",
     "processed_at": "2025-11-05T13:49:35.577781"
   },
@@ -75,7 +75,7 @@
     "category": "Data Science & Analytics",
     "description": "A toolkit designed to convert PDF documents into a linear format suitable for processing by large language models, enabling easier text extraction and dataset preparation for AI training purposes.",
     "url": "https://github.com/allenai/olmocr",
-    "stars": 16897,
+    "stars": 16902,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:37.461828"
   },
@@ -83,7 +83,7 @@
     "category": "AI & Machine Learning",
     "description": "Jan is an open-source, offline AI chat application that allows users to run large language models locally on their own computer, providing a privacy-focused alternative to cloud-based AI chatbots like ChatGPT.",
     "url": "https://github.com/janhq/jan",
-    "stars": 40459,
+    "stars": 40465,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:49:40.361233"
   },
@@ -91,7 +91,7 @@
     "category": "AI & Machine Learning",
     "description": "Mem0 is a universal memory layer for AI agents that enables long-term memory management, providing a secure and local solution for storing and retrieving contextual information for generative AI applications and chatbots.",
     "url": "https://github.com/mem0ai/mem0",
-    "stars": 47461,
+    "stars": 47511,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:42.108928"
   },
@@ -99,7 +99,7 @@
     "category": "Web & Desktop Development",
     "description": "Tauri is a framework for building cross-platform desktop and mobile applications using web technologies and Rust, enabling developers to create lightweight, performant, and secure native applications with web frontends.",
     "url": "https://github.com/tauri-apps/tauri",
-    "stars": 102764,
+    "stars": 102809,
     "language": "Rust",
     "processed_at": "2025-11-05T13:49:44.196791"
   },
@@ -107,7 +107,7 @@
     "category": "AI & Machine Learning",
     "description": "RAG-Anything is a comprehensive framework for Retrieval-Augmented Generation (RAG) that supports multi-modal interactions, enabling developers to build advanced AI systems that can dynamically retrieve and generate contextually relevant information across different data types.",
     "url": "https://github.com/HKUDS/RAG-Anything",
-    "stars": 13480,
+    "stars": 13519,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:46.206683"
   },
@@ -115,7 +115,7 @@
     "category": "AI & Machine Learning",
     "description": "AI-Trader is a project focused on using artificial intelligence and machine learning techniques to develop algorithmic trading strategies for financial markets. It aims to explore the potential of AI in generating trading decisions and potentially outperforming traditional market approaches.",
     "url": "https://github.com/HKUDS/AI-Trader",
-    "stars": 11262,
+    "stars": 11286,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:48.501335"
   },
@@ -123,7 +123,7 @@
     "category": "Developer Tools",
     "description": "WinBoat is a tool that enables running Windows applications on Linux systems using Docker and RDP, providing seamless cross-platform application compatibility and virtualization for developers and users.",
     "url": "https://github.com/TibixDev/winboat",
-    "stars": 18831,
+    "stars": 18850,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:49:50.650723"
   },
@@ -131,7 +131,7 @@
     "category": "Data Science & Analytics",
     "description": "Elasticsearch is a distributed, RESTful search and analytics engine capable of addressing complex search requirements and performing real-time data indexing, searching, and analysis across diverse data types and large-scale datasets.",
     "url": "https://github.com/elastic/elasticsearch",
-    "stars": 76073,
+    "stars": 76074,
     "language": "Java",
     "processed_at": "2025-11-05T13:49:52.743669"
   },
@@ -139,7 +139,7 @@
     "category": "Web & Desktop Development",
     "description": "Ladybird is an independent web browser project focused on developing a custom browser engine from scratch, providing an alternative to existing web browsers with a goal of creating a more independent and potentially more secure browsing experience.",
     "url": "https://github.com/LadybirdBrowser/ladybird",
-    "stars": 58543,
+    "stars": 58573,
     "language": "C++",
     "processed_at": "2025-11-05T13:49:54.555654"
   },
@@ -155,7 +155,7 @@
     "category": "Productivity & Utilities",
     "description": "A Python server that enables interaction between a MCP server and Obsidian via the Obsidian rest API community plugin, facilitating enhanced note management and integration capabilities for users.",
     "url": "https://github.com/MarkusPfundstein/mcp-obsidian",
-    "stars": 2853,
+    "stars": 2856,
     "language": "Python",
     "processed_at": "2025-11-05T13:49:58.786313"
   },
@@ -163,7 +163,7 @@
     "category": "AI & Machine Learning",
     "description": "A public repository by Anthropic focused on skills and capabilities for AI models, likely providing tools and resources for developing and enhancing large language model functionality and performance.",
     "url": "https://github.com/anthropics/skills",
-    "stars": 70666,
+    "stars": 71078,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:00.431860"
   },
@@ -171,7 +171,7 @@
     "category": "Data Science & Analytics",
     "description": "Prophet is an open-source forecasting tool developed by Facebook that enables users to generate high-quality time series predictions with multiple seasonality, supporting both linear and non-linear growth models. It simplifies complex time series forecasting by providing robust and intuitive methods for handling trend, seasonality, and holiday effects.",
     "url": "https://github.com/facebook/prophet",
-    "stars": 20012,
+    "stars": 20014,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:02.641290"
   },
@@ -179,7 +179,7 @@
     "category": "AI & Machine Learning",
     "description": "A repository collecting extracted system prompts from various large language models like ChatGPT, Claude, and Gemini, which provides insights into AI model behaviors and can be useful for prompt engineering and understanding generative AI capabilities.",
     "url": "https://github.com/asgeirtj/system_prompts_leaks",
-    "stars": 31741,
+    "stars": 31876,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:50:04.755102"
   },
@@ -195,7 +195,7 @@
     "category": "Developer Tools",
     "description": "A core skills library providing coding superpowers, likely enhancing developer productivity and offering utility functions or tooling for JavaScript development. The repository appears to provide reusable code enhancements and helper functions for programmers.",
     "url": "https://github.com/obra/superpowers",
-    "stars": 52890,
+    "stars": 53609,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:50:09.436982"
   },
@@ -203,7 +203,7 @@
     "category": "AI & Machine Learning",
     "description": "An interactive tutorial focused on teaching prompt engineering techniques for large language models, providing hands-on learning experiences for developers and researchers interested in effectively interacting with AI systems.",
     "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
-    "stars": 30085,
+    "stars": 30180,
     "language": "Jupyter Notebook",
     "processed_at": "2025-11-05T13:50:11.623688"
   },
@@ -211,7 +211,7 @@
     "category": "Developer Tools",
     "description": "A desktop application for Claude AI designed for Debian-based Linux distributions, providing a convenient native interface for interacting with Anthropic's AI assistant.",
     "url": "https://github.com/aaddrick/claude-desktop-debian",
-    "stars": 1946,
+    "stars": 1953,
     "language": "Shell",
     "processed_at": "2025-11-05T13:50:13.121157"
   },
@@ -219,7 +219,7 @@
     "category": "Developer Tools",
     "description": "Ty is an extremely fast Python type checker and language server implemented in Rust, designed to enhance code quality and provide rapid type checking capabilities for Python developers. It helps improve code reliability and catch type-related errors early in the development process.",
     "url": "https://github.com/astral-sh/ty",
-    "stars": 17210,
+    "stars": 17238,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:15.431265"
   },
@@ -235,7 +235,7 @@
     "category": "Developer Tools",
     "description": "Claude Code is an AI-powered terminal coding assistant that helps developers streamline their workflow by understanding codebases, executing routine tasks, explaining complex code, and managing git operations through natural language commands.",
     "url": "https://github.com/anthropics/claude-code",
-    "stars": 67190,
+    "stars": 67388,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:50:20.613971"
   },
@@ -243,7 +243,7 @@
     "category": "AI & Machine Learning",
     "description": "A Python project focused on intelligent automation and multi-agent orchestration for Claude Code, providing tools for creating and managing AI agents with advanced workflow capabilities. It enables developers to build complex AI systems with modular, interconnected agents for automated tasks and intelligent interactions.",
     "url": "https://github.com/wshobson/agents",
-    "stars": 28724,
+    "stars": 28793,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:22.724876"
   },
@@ -251,7 +251,7 @@
     "category": "Data Science & Analytics",
     "description": "Preswald provides a web-based packaging solution for Python data applications, enabling users to create interactive, self-contained data visualization and analytics workflows that run entirely in the browser using technologies like Pyodide, DuckDB, and Plotly.",
     "url": "https://github.com/StructuredLabs/preswald",
-    "stars": 4295,
+    "stars": 4294,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:24.763831"
   },
@@ -259,7 +259,7 @@
     "category": "AI & Machine Learning",
     "description": "A research project developing an advanced LLM-based trading agent with layered memory mechanisms for improved financial decision-making and stock trading performance. The repository explores innovative approaches to integrating large language models with financial trading strategies.",
     "url": "https://github.com/pipiku915/FinMem-LLM-StockTrading",
-    "stars": 838,
+    "stars": 842,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:26.888736"
   },
@@ -275,7 +275,7 @@
     "category": "Web & Desktop Development",
     "description": "RapidRAW is a high-performance RAW image editing application built using React and Rust with Tauri, providing a non-destructive and GPU-accelerated approach to image processing. It offers advanced editing capabilities like color grading and masking in a cross-platform desktop environment.",
     "url": "https://github.com/CyberTimon/RapidRAW",
-    "stars": 5157,
+    "stars": 5190,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:50:30.994885"
   },
@@ -283,7 +283,7 @@
     "category": "Developer Tools",
     "description": "Bubble Tea is a powerful Go framework for building interactive terminal user interfaces (TUIs) using the Elm architecture, enabling developers to create sophisticated, responsive CLI applications with a functional programming approach.",
     "url": "https://github.com/charmbracelet/bubbletea",
-    "stars": 39455,
+    "stars": 39496,
     "language": "Go",
     "processed_at": "2025-11-05T13:50:32.759182"
   },
@@ -291,7 +291,7 @@
     "category": "Robotics & Autonomous Systems",
     "description": "Genesis is a generative simulation environment designed for training and developing robotic AI agents, providing a comprehensive platform for embodied AI learning and research in complex, dynamically generated worlds.",
     "url": "https://github.com/Genesis-Embodied-AI/Genesis",
-    "stars": 28140,
+    "stars": 28138,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:35.198466"
   },
@@ -331,7 +331,7 @@
     "category": "Robotics & Autonomous Systems",
     "description": "A project that creates AI agents capable of autonomously navigating and performing tasks in the Minecraft game environment using large language models and the Mineflayer library. This repository demonstrates embodied AI principles by enabling intelligent bot behavior in a complex, dynamic game world.",
     "url": "https://github.com/mindcraft-bots/mindcraft",
-    "stars": 4745,
+    "stars": 4748,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:50:46.329233"
   },
@@ -339,7 +339,7 @@
     "category": "AI & Machine Learning",
     "description": "A FastAPI library that enables developers to expose AI model endpoints using the Model Context Protocol (MCP), providing authentication and authorization for AI tools and services. It simplifies integration and management of machine learning models with secure, standardized access.",
     "url": "https://github.com/tadata-org/fastapi_mcp",
-    "stars": 11533,
+    "stars": 11548,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:48.450165"
   },
@@ -347,7 +347,7 @@
     "category": "Web & Desktop Development",
     "description": "An open-source tool that enables developers to quickly clone and recreate websites as modern React applications, providing a streamlined way to reproduce web interfaces programmatically.",
     "url": "https://github.com/firecrawl/open-lovable",
-    "stars": 24151,
+    "stars": 24163,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:50:49.986003"
   },
@@ -355,7 +355,7 @@
     "category": "AI & Machine Learning",
     "description": "FastMCP is a Python library for building and managing Model Context Protocol (MCP) servers and clients, facilitating efficient communication and interaction with large language models and AI agents. It provides a fast, Pythonic approach to implementing MCP-based AI infrastructure and tooling.",
     "url": "https://github.com/jlowin/fastmcp",
-    "stars": 22869,
+    "stars": 22898,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:52.079416"
   },
@@ -371,7 +371,7 @@
     "category": "Reinforcement Learning",
     "description": "CleanRL provides high-quality, single-file implementations of various deep reinforcement learning algorithms using PyTorch, offering researchers and practitioners a clean, modular framework for experimenting with RL techniques across different environments and algorithms.",
     "url": "https://github.com/vwxyzjn/cleanrl",
-    "stars": 9109,
+    "stars": 9113,
     "language": "Python",
     "processed_at": "2025-11-05T13:50:55.844766"
   },
@@ -387,7 +387,7 @@
     "category": "Reinforcement Learning",
     "description": "Gymnasium is a standardized API for single-agent reinforcement learning environments, providing reference environments and utilities that simplify the development and benchmarking of RL algorithms and agents.",
     "url": "https://github.com/Farama-Foundation/Gymnasium",
-    "stars": 11334,
+    "stars": 11339,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:00.423626"
   },
@@ -395,7 +395,7 @@
     "category": "Reinforcement Learning",
     "description": "D3rlpy is a Python library for offline deep reinforcement learning, providing implementations of state-of-the-art offline RL algorithms and tools for training and evaluating models without online interaction with environments.",
     "url": "https://github.com/takuseno/d3rlpy",
-    "stars": 1643,
+    "stars": 1644,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:02.233749"
   },
@@ -411,7 +411,7 @@
     "category": "Productivity & Utilities",
     "description": "Memos is a self-hosted, open-source note-taking service that allows users to manage personal notes and thoughts with privacy and complete control. It provides a markdown-enabled, lightweight platform for capturing and organizing personal content without tracking, ads, or subscription fees.",
     "url": "https://github.com/usememos/memos",
-    "stars": 56966,
+    "stars": 56994,
     "language": "Go",
     "processed_at": "2025-11-05T13:51:06.152169"
   },
@@ -419,7 +419,7 @@
     "category": "Data Science & Analytics",
     "description": "Pyomo is a powerful Python library for mathematical optimization, allowing users to formulate, solve, and analyze complex optimization problems across linear, nonlinear, and mixed-integer programming domains. It provides a flexible modeling language for researchers and practitioners to develop sophisticated optimization models and solve them using various solvers.",
     "url": "https://github.com/Pyomo/pyomo",
-    "stars": 2394,
+    "stars": 2395,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:08.439921"
   },
@@ -435,7 +435,7 @@
     "category": "Developer Tools",
     "description": "RenderCV is a Python tool that allows users to version-control and generate professional CVs/resumes from source code, enabling easy customization and management of resume templates.",
     "url": "https://github.com/rendercv/rendercv",
-    "stars": 15651,
+    "stars": 15669,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:13.159345"
   },
@@ -443,7 +443,7 @@
     "category": "Web & Desktop Development",
     "description": "A Hugo theme designed specifically for creating image galleries, allowing users to easily build and customize photo galleries and portfolios using the Hugo static site generator.",
     "url": "https://github.com/nicokaiser/hugo-theme-gallery",
-    "stars": 687,
+    "stars": 688,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:51:14.756438"
   },
@@ -451,7 +451,7 @@
     "category": "AI & Machine Learning",
     "description": "PocketFlow is a lightweight LLM framework designed to facilitate agent-based AI workflows and development, enabling developers to build and orchestrate intelligent agents with minimal code complexity. It provides a streamlined approach to creating AI systems that can dynamically interact, collaborate, and self-improve.",
     "url": "https://github.com/The-Pocket/PocketFlow",
-    "stars": 10018,
+    "stars": 10025,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:17.065560"
   },
@@ -459,7 +459,7 @@
     "category": "AI & Machine Learning",
     "description": "PocketFlow is a comprehensive framework and tutorial codebase focused on large language models (LLMs), providing developers and researchers with resources for building, understanding, and implementing LLM applications and agents.",
     "url": "https://github.com/The-Pocket/PocketFlow-Tutorial-Codebase-Knowledge",
-    "stars": 12066,
+    "stars": 12067,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:18.781920"
   },
@@ -467,7 +467,7 @@
     "category": "AI & Machine Learning",
     "description": "DSPy is a programming framework that enables sophisticated language model workflows by allowing developers to compose complex AI systems through programmatic optimization rather than manual prompt engineering. It provides powerful abstractions and optimization techniques for building more reliable and adaptable AI applications.",
     "url": "https://github.com/stanfordnlp/dspy",
-    "stars": 32235,
+    "stars": 32247,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:21.098157"
   },
@@ -475,7 +475,7 @@
     "category": "AI & Machine Learning",
     "description": "LangChain is an open-source framework for building AI agents and applications powered by large language models, providing robust infrastructure and tools for developing context-aware, intelligent systems across various domains.",
     "url": "https://github.com/langchain-ai/langchain",
-    "stars": 126764,
+    "stars": 126825,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:23.332259"
   },
@@ -483,7 +483,7 @@
     "category": "Developer Tools",
     "description": "A Docker volume backup utility that enables users to easily backup and restore Docker volumes locally or to various cloud storage platforms like S3, WebDAV, Azure Blob Storage, and others. This tool simplifies data protection and migration for containerized applications by providing flexible and straightforward backup solutions.",
     "url": "https://github.com/offen/docker-volume-backup",
-    "stars": 3377,
+    "stars": 3378,
     "language": "Go",
     "processed_at": "2025-11-05T13:51:25.437368"
   },
@@ -515,7 +515,7 @@
     "category": "Developer Tools",
     "description": "A Python utility for converting various file formats like office documents and PDFs into Markdown, which helps developers and content creators streamline document transformation and facilitate easier content editing and sharing.",
     "url": "https://github.com/microsoft/markitdown",
-    "stars": 87168,
+    "stars": 87209,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:33.151055"
   },
@@ -539,7 +539,7 @@
     "category": "Developer Tools",
     "description": "Bruno is an open-source API testing and exploration IDE that provides a lightweight alternative to Postman and Insomnia, enabling developers to efficiently design, test, and document APIs using a Git-friendly approach.",
     "url": "https://github.com/usebruno/bruno",
-    "stars": 40904,
+    "stars": 40924,
     "language": "JavaScript",
     "processed_at": "2025-11-05T13:51:38.795354"
   },
@@ -547,7 +547,7 @@
     "category": "AI & Machine Learning",
     "description": "A Python tool that leverages generative AI to transform podcast content across languages, using APIs from ElevenLabs and OpenAI to create multilingual audio conversations from source material. It enables automated podcast content generation and transformation through advanced language and speech technologies.",
     "url": "https://github.com/souzatharsis/podcastfy",
-    "stars": 6039,
+    "stars": 6040,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:41.164274"
   },
@@ -555,7 +555,7 @@
     "category": "Developer Tools",
     "description": "Mypy is a static type checker for Python that helps developers catch type-related errors before runtime by analyzing code and verifying type annotations. It enhances code quality and enables optional type checking in Python projects.",
     "url": "https://github.com/python/mypy",
-    "stars": 20213,
+    "stars": 20219,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:43.534122"
   },
@@ -563,7 +563,7 @@
     "category": "Developer Tools",
     "description": "Supabase-py is a Python client library for interacting with Supabase, providing developers with a convenient way to query Postgres databases, handle authentication, manage security policies, and enable real-time data streaming across multiple web frameworks.",
     "url": "https://github.com/supabase/supabase-py",
-    "stars": 2444,
+    "stars": 2445,
     "language": "Python",
     "processed_at": "2025-11-05T13:51:45.285590"
   },
@@ -571,7 +571,7 @@
     "category": "Developer Tools",
     "description": "Supabase is an open-source platform that provides developers with a comprehensive Postgres database solution, offering features like authentication, real-time subscriptions, and vector embeddings. It simplifies backend development by providing a scalable, developer-friendly alternative to traditional database management systems.",
     "url": "https://github.com/supabase/supabase",
-    "stars": 97688,
+    "stars": 97724,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:51:47.538117"
   },
@@ -595,7 +595,7 @@
     "category": "Developer Tools",
     "description": "A repository containing development container configurations and templates for Visual Studio Code, enabling developers to create consistent, reproducible development environments using containers and Docker. This tool helps streamline setup and ensure uniform development environments across different machines and teams.",
     "url": "https://github.com/microsoft/vscode-dev-containers",
-    "stars": 4746,
+    "stars": 4745,
     "language": "Shell",
     "processed_at": "2025-11-05T13:51:53.626848"
   },
@@ -611,7 +611,7 @@
     "category": "Developer Tools",
     "description": "Slidev is a powerful developer tool for creating presentation slides using Markdown, Vue, and Vite, enabling programmers to quickly generate interactive and modern presentations directly from their development environment.",
     "url": "https://github.com/slidevjs/slidev",
-    "stars": 44361,
+    "stars": 44377,
     "language": "TypeScript",
     "processed_at": "2025-11-05T13:51:57.713802"
   },
@@ -651,7 +651,7 @@
     "category": "Developer Tools",
     "description": "Caddy is a powerful, open-source web server written in Go that provides automatic HTTPS and easy configuration through its Caddyfile. It simplifies web server deployment with features like automatic TLS certificate management and support for modern HTTP protocols.",
     "url": "https://github.com/caddyserver/caddy",
-    "stars": 70002,
+    "stars": 70040,
     "language": "Go",
     "processed_at": "2025-11-05T13:52:07.523001"
   },
@@ -667,7 +667,7 @@
     "category": "Developer Tools",
     "description": "Traefik is a modern HTTP reverse proxy and load balancer designed for microservices and cloud-native deployments, enabling seamless traffic routing, service discovery, and SSL/TLS certificate management across containerized environments.",
     "url": "https://github.com/traefik/traefik",
-    "stars": 61672,
+    "stars": 61691,
     "language": "Go",
     "processed_at": "2025-11-05T13:52:11.254507"
   },
@@ -691,7 +691,7 @@
     "category": "Data Science & Analytics",
     "description": "A comprehensive curated list of Python libraries, tools, and resources for data science, covering areas like data analysis, visualization, machine learning, and statistics. This repository serves as an extensive guide and reference for data scientists and analysts looking to explore and leverage Python's data science ecosystem.",
     "url": "https://github.com/krzjoa/awesome-python-data-science",
-    "stars": 3345,
+    "stars": 3347,
     "language": null,
     "processed_at": "2025-11-05T13:52:17.172781"
   },
@@ -699,7 +699,7 @@
     "category": "Developer Tools",
     "description": "A curated collection of useful websites and resources that programmers can leverage to enhance their skills, learn new technologies, and find valuable information for professional development. The repository serves as a comprehensive reference guide with links to educational and practical online resources.",
     "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
-    "stars": 75676,
+    "stars": 75689,
     "language": null,
     "processed_at": "2025-11-05T13:52:19.371182"
   },
@@ -723,7 +723,7 @@
     "category": "Productivity & Utilities",
     "description": "Psst is a multi-platform Spotify client with a native GUI, providing an alternative client implementation for music streaming. It offers users a fast, potentially more lightweight option for accessing Spotify's music library across different operating systems.",
     "url": "https://github.com/jpochyla/psst",
-    "stars": 9342,
+    "stars": 9341,
     "language": "Rust",
     "processed_at": "2025-11-05T13:52:25.675212"
   },
@@ -739,7 +739,7 @@
     "category": "Developer Tools",
     "description": "A robust Python library for parsing various feed formats like RSS, Atom, and RDF, providing developers with a standardized way to read and extract information from web feeds. It simplifies feed parsing and supports multiple syndication formats, making it a valuable utility for developers working with web content aggregation.",
     "url": "https://github.com/kurtmckee/feedparser",
-    "stars": 2287,
+    "stars": 2288,
     "language": "Python",
     "processed_at": "2025-11-07T00:54:26.152100"
   },
@@ -755,7 +755,7 @@
     "category": "Developer Tools",
     "description": "Kafka-UI is an open-source web interface for managing Apache Kafka clusters, providing a user-friendly dashboard for monitoring and interacting with Kafka brokers, topics, and streaming data. It simplifies Kafka administration by offering visualization and management capabilities directly through a web interface.",
     "url": "https://github.com/provectus/kafka-ui",
-    "stars": 11883,
+    "stars": 11887,
     "language": "Java",
     "processed_at": "2025-11-07T00:54:30.706405"
   },
@@ -763,7 +763,7 @@
     "category": "Data Science & Analytics",
     "description": "Apache Kafka is a distributed streaming platform that allows high-throughput, fault-tolerant real-time data pipelines and streaming applications. It enables efficient data transfer and processing between distributed systems, making it critical for large-scale data streaming and event-driven architectures.",
     "url": "https://github.com/apache/kafka",
-    "stars": 31916,
+    "stars": 31924,
     "language": "Java",
     "processed_at": "2025-11-07T00:54:32.646746"
   },
@@ -771,7 +771,7 @@
     "category": "Developer Tools",
     "description": "Papermark is an open-source document sharing and analytics platform that allows users to share and track document interactions with custom domains and built-in analytics capabilities. It provides an alternative to DocSend with features for tracking document views and engagement.",
     "url": "https://github.com/mfts/papermark",
-    "stars": 8073,
+    "stars": 8072,
     "language": "TypeScript",
     "processed_at": "2025-11-07T00:54:34.632371"
   },
@@ -779,7 +779,7 @@
     "category": "AI & Machine Learning",
     "description": "An open-source resource providing comprehensive insights and guidance for machine learning engineering, focusing on large language models, training techniques, inference, and MLOps best practices. The repository serves as a practical reference for professionals and researchers working with advanced AI technologies and PyTorch-based machine learning systems.",
     "url": "https://github.com/stas00/ml-engineering",
-    "stars": 16828,
+    "stars": 16857,
     "language": "Python",
     "processed_at": "2025-11-07T00:54:36.762710"
   },
@@ -787,7 +787,7 @@
     "category": "AI & Machine Learning",
     "description": "DeepCode is an open-source project that enables AI agents to autonomously generate code, convert text to web applications, and create backend systems using large language models. It represents a cutting-edge approach to agentic coding that automates and enhances software development processes.",
     "url": "https://github.com/HKUDS/DeepCode",
-    "stars": 14475,
+    "stars": 14503,
     "language": "Python",
     "processed_at": "2025-11-07T00:54:38.653671"
   },
@@ -795,7 +795,7 @@
     "category": "Web & Desktop Development",
     "description": "Quart is an asynchronous Python web framework inspired by Flask, designed to help developers build modern web applications and APIs using async/await syntax. It provides a familiar Flask-like interface while leveraging Python's asyncio capabilities for improved performance and concurrency.",
     "url": "https://github.com/pallets/quart",
-    "stars": 3597,
+    "stars": 3598,
     "language": "Python",
     "processed_at": "2025-11-08T00:50:58.198957"
   },
@@ -811,7 +811,7 @@
     "category": "Developer Tools",
     "description": "A comprehensive guide providing detailed steps and best practices for securing and hardening Linux servers against potential security vulnerabilities. This repository serves as a valuable reference for system administrators and security professionals looking to enhance the safety of their Linux server deployments.",
     "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server",
-    "stars": 24567,
+    "stars": 24569,
     "language": null,
     "processed_at": "2025-11-09T00:57:23.904240"
   },
@@ -819,7 +819,7 @@
     "category": "AI & Machine Learning",
     "description": "SimStudio is an open-source platform that enables users to build and deploy AI agent workflows with low-code/no-code capabilities, supporting multiple AI models and providing infrastructure for creating intelligent, automated agent systems.",
     "url": "https://github.com/simstudioai/sim",
-    "stars": 26433,
+    "stars": 26445,
     "language": "TypeScript",
     "processed_at": "2025-11-09T00:57:25.753406"
   },
@@ -827,7 +827,7 @@
     "category": "AI & Machine Learning",
     "description": "Strix is an open-source framework for creating AI agents designed for cybersecurity and penetration testing applications, leveraging large language models to automate and enhance security testing and hacking tasks.",
     "url": "https://github.com/usestrix/strix",
-    "stars": 20073,
+    "stars": 20088,
     "language": "Python",
     "processed_at": "2025-11-09T00:57:27.466363"
   },
@@ -835,7 +835,7 @@
     "category": "Developer Tools",
     "description": "A comprehensive study plan and resource guide for software engineers preparing for coding interviews, covering computer science fundamentals, data structures, and algorithms. This repository provides a structured learning path to help aspiring software engineers enhance their technical skills and interview readiness.",
     "url": "https://github.com/jwasham/coding-interview-university",
-    "stars": 337026,
+    "stars": 337050,
     "language": null,
     "processed_at": "2025-11-09T00:57:29.361088"
   },
@@ -843,7 +843,7 @@
     "category": "AI & Machine Learning",
     "description": "An autonomous AI system designed to conduct scientific research and innovation, enabling researchers to leverage AI for complex problem-solving and knowledge discovery across various domains.",
     "url": "https://github.com/HKUDS/AI-Researcher",
-    "stars": 4454,
+    "stars": 4470,
     "language": "Python",
     "processed_at": "2025-11-09T00:57:30.758146"
   },
@@ -851,7 +851,7 @@
     "category": "AI & Machine Learning",
     "description": "WhisperX is an advanced automatic speech recognition library that extends OpenAI's Whisper model to provide word-level timestamps and speaker diarization capabilities. It enables more precise speech-to-text transcription with enhanced granularity for tracking who spoke when in audio recordings.",
     "url": "https://github.com/m-bain/whisperX",
-    "stars": 20175,
+    "stars": 20194,
     "language": "Python",
     "processed_at": "2025-11-09T00:57:32.934036"
   },
@@ -867,7 +867,7 @@
     "category": "Developer Tools",
     "description": "Microsoft PowerToys is a suite of advanced Windows utilities that help developers and power users customize and optimize their Windows experience, offering tools like FancyZones, Color Picker, and Keyboard Manager to enhance productivity and system interaction.",
     "url": "https://github.com/microsoft/PowerToys",
-    "stars": 129846,
+    "stars": 129865,
     "language": "C#",
     "processed_at": "2025-11-09T00:57:37.559916"
   },
@@ -875,7 +875,7 @@
     "category": "AI & Machine Learning",
     "description": "PyTorch is a comprehensive machine learning library for Python that provides tensor computation with strong GPU acceleration and dynamic neural network building capabilities. It serves as a fundamental framework for developing deep learning models, supporting research and production environments across various AI applications.",
     "url": "https://github.com/pytorch/pytorch",
-    "stars": 97445,
+    "stars": 97473,
     "language": "Python",
     "processed_at": "2025-11-09T00:57:39.512906"
   },
@@ -883,7 +883,7 @@
     "category": "Developer Tools",
     "description": "A comprehensive curated list of Python libraries, frameworks, and resources that helps developers discover and explore high-quality Python tools and ecosystems. This repository serves as an essential reference and discovery platform for Python developers seeking to enhance their toolkit and knowledge.",
     "url": "https://github.com/vinta/awesome-python",
-    "stars": 283153,
+    "stars": 283295,
     "language": "Python",
     "processed_at": "2025-11-11T00:55:27.455781"
   },
@@ -899,7 +899,7 @@
     "category": "Developer Tools",
     "description": "A CLI tool designed to help developers configure and interact with Claude Code, providing utility and productivity enhancements for working with Anthropic's Claude AI. It offers streamlined configuration and monitoring capabilities for developers using Claude's code generation and assistance features.",
     "url": "https://github.com/davila7/claude-code-templates",
-    "stars": 20559,
+    "stars": 20721,
     "language": "JavaScript",
     "processed_at": "2025-11-12T00:55:11.482885"
   },
@@ -915,7 +915,7 @@
     "category": "Developer Tools",
     "description": "Context7 is a MCP (Multi-Contextual Prompt) server that provides up-to-date code documentation for large language models and AI code editors, enhancing developer productivity and code understanding.",
     "url": "https://github.com/upstash/context7",
-    "stars": 45898,
+    "stars": 45998,
     "language": "JavaScript",
     "processed_at": "2025-11-13T00:55:09.959954"
   },
@@ -923,7 +923,7 @@
     "category": "Developer Tools",
     "description": "Graphite is a sophisticated open-source graphics editor written in Rust that offers comprehensive 2D content creation capabilities with a unique node-based procedural editing approach. It provides designers and artists with advanced graphics manipulation and design tools through an innovative, flexible interface.",
     "url": "https://github.com/GraphiteEditor/Graphite",
-    "stars": 24151,
+    "stars": 24161,
     "language": "Rust",
     "processed_at": "2025-11-13T00:55:12.097257"
   },
@@ -931,7 +931,7 @@
     "category": "Developer Tools",
     "description": "Incus-os is an immutable Linux operating system designed to run Incus, providing a streamlined and consistent environment for system containers and virtual machines. It aims to simplify deployment and management of containerized environments with a focus on reliability and ease of use.",
     "url": "https://github.com/lxc/incus-os",
-    "stars": 848,
+    "stars": 851,
     "language": "Go",
     "processed_at": "2025-11-13T00:55:13.972916"
   },
@@ -939,7 +939,7 @@
     "category": "AI & Machine Learning",
     "description": "Milvus is a specialized vector database designed for efficient similarity search and storage of high-dimensional vector embeddings, enabling advanced AI applications like semantic search, recommendation systems, and retrieval-augmented generation (RAG).",
     "url": "https://github.com/milvus-io/milvus",
-    "stars": 42775,
+    "stars": 42783,
     "language": "Go",
     "processed_at": "2025-11-15T00:53:22.151443"
   },
@@ -947,7 +947,7 @@
     "category": "Developer Tools",
     "description": "MkDocs Material is a powerful documentation generator that provides a sleek, responsive theme based on Material Design principles. It enables developers to create clean, professional documentation sites with minimal configuration and supports advanced features like search, versioning, and multiple language support.",
     "url": "https://github.com/squidfunk/mkdocs-material",
-    "stars": 26054,
+    "stars": 26066,
     "language": "Python",
     "processed_at": "2025-11-16T00:58:36.886714"
   },
@@ -955,7 +955,7 @@
     "category": "Developer Tools",
     "description": "Maturin is a build tool for creating Python packages with Rust bindings, enabling developers to efficiently compile and publish Rust-based Python extensions across different platforms and Python versions.",
     "url": "https://github.com/PyO3/maturin",
-    "stars": 5401,
+    "stars": 5404,
     "language": "Rust",
     "processed_at": "2025-11-16T00:58:38.540656"
   },
@@ -971,7 +971,7 @@
     "category": "Accessibility & Utilities",
     "description": "Handy is an offline speech-to-text application that enables users to transcribe audio locally without requiring internet connectivity. The tool provides a cross-platform solution for converting spoken language to text, enhancing accessibility and communication capabilities.",
     "url": "https://github.com/cjpais/Handy",
-    "stars": 15155,
+    "stars": 15303,
     "language": "TypeScript",
     "processed_at": "2025-11-18T00:54:51.795897"
   },
@@ -979,7 +979,7 @@
     "category": "AI & Machine Learning",
     "description": "MineContext is an AI context-engineering project that provides a proactive context-aware AI partner, utilizing advanced techniques like embedding models, vector databases, and RAG (Retrieval-Augmented Generation) to enhance AI interaction and memory capabilities.",
     "url": "https://github.com/volcengine/MineContext",
-    "stars": 4937,
+    "stars": 4944,
     "language": "Python",
     "processed_at": "2025-11-18T00:54:53.862962"
   },
@@ -987,7 +987,7 @@
     "category": "AI & Machine Learning",
     "description": "Deepagents is a sophisticated agent framework built on langchain and langgraph that enables complex AI task handling through advanced planning, filesystem interaction, and subagent spawning capabilities. It provides developers with a robust infrastructure for creating intelligent, multi-functional AI agents with enhanced problem-solving abilities.",
     "url": "https://github.com/langchain-ai/deepagents",
-    "stars": 9332,
+    "stars": 9358,
     "language": "Python",
     "processed_at": "2025-11-18T00:54:56.145703"
   },
@@ -995,7 +995,7 @@
     "category": "Developer Tools",
     "description": "Task is a lightweight task runner and build tool written in Go that serves as a simpler alternative to Make, allowing developers to define and execute tasks using an easy-to-write Taskfile for automating development, build, and deployment workflows.",
     "url": "https://github.com/go-task/task",
-    "stars": 14838,
+    "stars": 14840,
     "language": "Go",
     "processed_at": "2025-11-18T00:54:58.059140"
   },
@@ -1003,7 +1003,7 @@
     "category": "AI & Machine Learning",
     "description": "A GitHub repository that enables AI agents to conduct phone calls programmatically through an API, leveraging conversational AI and telephony integration for automated communication scenarios.",
     "url": "https://github.com/microsoft/call-center-ai",
-    "stars": 6244,
+    "stars": 6258,
     "language": "Python",
     "processed_at": "2025-11-19T00:54:34.946342"
   },
@@ -1011,7 +1011,7 @@
     "category": "Developer Tools",
     "description": "Gum is a command-line utility that provides elegant, user-friendly components for building interactive shell scripts with features like input prompts, confirmations, and styling. It enhances shell scripting productivity by offering a glamorous and intuitive interface for terminal interactions.",
     "url": "https://github.com/charmbracelet/gum",
-    "stars": 22664,
+    "stars": 22683,
     "language": "Go",
     "processed_at": "2025-11-20T00:53:29.332652"
   },
@@ -1019,7 +1019,7 @@
     "category": "AI & Machine Learning",
     "description": "AutoGen is a programming framework that enables the development of complex, collaborative AI agents capable of interacting and solving tasks together using large language models. It provides a flexible infrastructure for creating multi-agent conversations and workflows with advanced coordination and collaboration capabilities.",
     "url": "https://github.com/microsoft/autogen",
-    "stars": 54584,
+    "stars": 54610,
     "language": "Python",
     "processed_at": "2025-11-20T00:53:31.378533"
   },
@@ -1027,7 +1027,7 @@
     "category": "Developer Tools",
     "description": "Lazydocker is a terminal-based user interface for Docker that simplifies container, image, and volume management by providing an intuitive and efficient way to interact with Docker services. It allows developers to monitor, control, and navigate Docker environments with minimal command-line complexity.",
     "url": "https://github.com/jesseduffield/lazydocker",
-    "stars": 49726,
+    "stars": 49742,
     "language": "Go",
     "processed_at": "2025-11-22T00:52:19.906349"
   },
@@ -1035,7 +1035,7 @@
     "category": "Developer Tools",
     "description": "Podman is an open-source container management tool that allows developers to create, run, and manage OCI containers and pods with a Docker-compatible command-line interface, without requiring a daemon or root privileges.",
     "url": "https://github.com/containers/podman",
-    "stars": 30711,
+    "stars": 30729,
     "language": "Go",
     "processed_at": "2025-11-22T00:52:22.193119"
   },
@@ -1043,7 +1043,7 @@
     "category": "Developer Tools",
     "description": "CodebuffAI is a terminal-based code generation tool that allows developers to generate code snippets or entire files directly from the command line, enhancing coding productivity and assisting with rapid code creation.",
     "url": "https://github.com/CodebuffAI/codebuff",
-    "stars": 2788,
+    "stars": 2804,
     "language": "TypeScript",
     "processed_at": "2025-11-23T01:01:56.893966"
   },
@@ -1051,7 +1051,7 @@
     "category": "Developer Tools",
     "description": "Fish is a user-friendly command line shell that provides advanced interactive features and improved usability compared to traditional shells like Bash. It offers syntax highlighting, autosuggestions, and a more intuitive scripting language to enhance developer productivity.",
     "url": "https://github.com/fish-shell/fish-shell",
-    "stars": 32573,
+    "stars": 32588,
     "language": "Rust",
     "processed_at": "2025-11-23T01:01:58.665441"
   },
@@ -1059,7 +1059,7 @@
     "category": "AI & Machine Learning",
     "description": "LightRAG is a lightweight framework for Retrieval-Augmented Generation (RAG) that simplifies and accelerates knowledge retrieval and integration for large language models. It provides efficient tools for enhancing AI models' performance by enabling more contextually relevant and accurate responses through intelligent information retrieval.",
     "url": "https://github.com/HKUDS/LightRAG",
-    "stars": 28385,
+    "stars": 28410,
     "language": "Python",
     "processed_at": "2025-11-23T01:02:00.786123"
   },
@@ -1067,7 +1067,7 @@
     "category": "Developer Tools",
     "description": "This repository contains the Google Sans Code font family, which provides developers with a specialized typeface designed for coding environments. It offers a clean, readable font specifically optimized for source code display and programming interfaces.",
     "url": "https://github.com/googlefonts/googlesans-code",
-    "stars": 2052,
+    "stars": 2053,
     "language": "Python",
     "processed_at": "2025-11-23T01:02:02.405227"
   },
@@ -1075,7 +1075,7 @@
     "category": "Robotics & Autonomous Systems",
     "description": "A comprehensive collection of Python implementations of various robotics algorithms including path planning, localization, mapping, and autonomous navigation techniques. This repository provides practical code samples and educational resources for robotics researchers and developers.",
     "url": "https://github.com/AtsushiSakai/PythonRobotics",
-    "stars": 28652,
+    "stars": 28658,
     "language": "Python",
     "processed_at": "2025-11-23T01:02:04.027737"
   },
@@ -1091,7 +1091,7 @@
     "category": "AI & Machine Learning",
     "description": "A Python toolkit for creating, evaluating, and deploying sophisticated AI agents with advanced capabilities for multi-agent collaboration and generative AI interactions. The framework provides developers with flexible tools to build complex agent systems using large language models.",
     "url": "https://github.com/google/adk-python",
-    "stars": 17735,
+    "stars": 17781,
     "language": "Python",
     "processed_at": "2025-11-23T01:02:07.570136"
   },
@@ -1099,7 +1099,7 @@
     "category": "Web & Desktop Development",
     "description": "An open-source payments and billing infrastructure project built with modern web technologies like Next.js, tRPC, and TypeScript. Provides developers with a comprehensive toolkit for implementing payment and billing systems in web applications.",
     "url": "https://github.com/flowglad/flowglad",
-    "stars": 1684,
+    "stars": 1685,
     "language": "TypeScript",
     "processed_at": "2025-11-27T00:54:04.587950"
   },
@@ -1107,7 +1107,7 @@
     "category": "Home Automation & Utilities",
     "description": "EVCC is an open-source solar charging and electric vehicle management system that enables intelligent charging of electric vehicles using solar power and other energy sources. It provides integration with various charging stations, energy meters, and solar inverters to optimize charging efficiency and cost.",
     "url": "https://github.com/evcc-io/evcc",
-    "stars": 6157,
+    "stars": 6159,
     "language": "Go",
     "processed_at": "2025-11-28T00:53:19.594144"
   },
@@ -1115,7 +1115,7 @@
     "category": "Developer Tools",
     "description": "A curated collection of resources, workflows, and commands specifically for using Claude AI in coding tasks, aimed at helping developers optimize their AI-assisted coding processes and improve productivity.",
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
-    "stars": 23932,
+    "stars": 24052,
     "language": "Python",
     "processed_at": "2025-12-02T00:55:55.927363"
   },
@@ -1139,7 +1139,7 @@
     "category": "AI & Machine Learning",
     "description": "Memori is an open-source memory management engine designed to enhance AI agents and large language models by providing sophisticated memory handling capabilities. It enables more context-aware and persistent memory mechanisms for multi-agent systems and AI interactions.",
     "url": "https://github.com/MemoriLabs/Memori",
-    "stars": 12078,
+    "stars": 12084,
     "language": "Python",
     "processed_at": "2025-12-03T00:56:08.547162"
   },
@@ -1155,7 +1155,7 @@
     "category": "AI & Machine Learning",
     "description": "AgentEvolver is an advanced framework for creating self-improving AI agents using large language models and reinforcement learning techniques. It enables AI systems to autonomously evolve and enhance their capabilities through iterative learning and adaptation.",
     "url": "https://github.com/modelscope/AgentEvolver",
-    "stars": 1153,
+    "stars": 1154,
     "language": "Python",
     "processed_at": "2025-12-04T00:56:09.082403"
   },
@@ -1163,7 +1163,7 @@
     "category": "AI & Machine Learning",
     "description": "ReMe is a memory management kit for AI agents that enhances their ability to remember, refine, and retrieve contextual information using advanced memory techniques. It provides infrastructure to improve agent performance and memory retention in conversational and task-oriented AI applications.",
     "url": "https://github.com/agentscope-ai/ReMe",
-    "stars": 977,
+    "stars": 980,
     "language": "Python",
     "processed_at": "2025-12-04T00:56:11.164373"
   },
@@ -1171,7 +1171,7 @@
     "category": "Developer Tools",
     "description": "Lima provides a lightweight virtual machine runtime for macOS that enables easy provisioning of Linux development environments with a focus on running containers. It simplifies container and development workflows by offering an efficient abstraction layer between macOS and Linux systems.",
     "url": "https://github.com/lima-vm/lima",
-    "stars": 20231,
+    "stars": 20236,
     "language": "Go",
     "processed_at": "2025-12-09T00:56:23.111792"
   },
@@ -1187,7 +1187,7 @@
     "category": "Developer Tools",
     "description": "Foundry-Local is a local development tool by Microsoft that appears to provide a development environment or utility for developers, likely focused on improving local development workflows and productivity.",
     "url": "https://github.com/microsoft/Foundry-Local",
-    "stars": 1980,
+    "stars": 1982,
     "language": "Svelte",
     "processed_at": "2025-12-09T00:56:26.700878"
   },
@@ -1195,7 +1195,7 @@
     "category": "AI & Machine Learning",
     "description": "An open-source AI tool that generates presentations automatically using artificial intelligence, providing an alternative to traditional presentation creation platforms. It enables users to quickly create professional presentations with AI-powered content generation and design.",
     "url": "https://github.com/presenton/presenton",
-    "stars": 4018,
+    "stars": 4030,
     "language": "TypeScript",
     "processed_at": "2025-12-10T00:57:52.654253"
   },
@@ -1203,7 +1203,7 @@
     "category": "Data Science & Analytics",
     "description": "Polars is a high-performance DataFrame library written in Rust that enables extremely fast data processing and query operations. It provides efficient data manipulation capabilities with out-of-core computing support, making it ideal for large-scale data analysis and transformation tasks.",
     "url": "https://github.com/pola-rs/polars",
-    "stars": 37441,
+    "stars": 37461,
     "language": "Rust",
     "processed_at": "2025-12-11T00:58:23.865901"
   },
@@ -1211,7 +1211,7 @@
     "category": "AI & Machine Learning",
     "description": "VibeVoice is an open-source voice AI project that likely focuses on advanced speech recognition, synthesis, or interaction technologies using machine learning techniques. It represents an innovative approach to developing voice-based artificial intelligence systems.",
     "url": "https://github.com/microsoft/VibeVoice",
-    "stars": 23290,
+    "stars": 23305,
     "language": "Python",
     "processed_at": "2025-12-11T00:58:25.414301"
   },
@@ -1219,7 +1219,7 @@
     "category": "Developer Tools",
     "description": "Mistral Vibe is a minimal CLI coding agent that assists developers by automating code-related tasks through an intelligent command-line interface. It provides a lightweight, efficient tool for developers to streamline their coding workflow and productivity.",
     "url": "https://github.com/mistralai/mistral-vibe",
-    "stars": 3102,
+    "stars": 3124,
     "language": "Python",
     "processed_at": "2025-12-11T00:58:27.365322"
   },
@@ -1227,7 +1227,7 @@
     "category": "Web & Desktop Development",
     "description": "Pywebview is a cross-platform GUI library that allows developers to embed web technologies (HTML, JavaScript, CSS) into Python desktop applications using native GUI components. It provides a lightweight and flexible way to create desktop applications with web-based user interfaces.",
     "url": "https://github.com/r0x0r/pywebview",
-    "stars": 5719,
+    "stars": 5720,
     "language": "Python",
     "processed_at": "2025-12-13T00:54:25.631709"
   },
@@ -1235,7 +1235,7 @@
     "category": "AI & Machine Learning",
     "description": "llama.cpp is an open-source library for running large language models efficiently on CPU hardware, enabling local inference of models like LLaMA through high-performance C/C++ implementation.",
     "url": "https://github.com/ggml-org/llama.cpp",
-    "stars": 95140,
+    "stars": 95206,
     "language": "C++",
     "processed_at": "2025-12-13T00:54:27.496060"
   },
@@ -1243,7 +1243,7 @@
     "category": "AI & Machine Learning",
     "description": "Triton is a language and compiler for creating custom deep learning primitives, specifically designed to simplify GPU programming and enable high-performance neural network operations. It provides a powerful intermediate representation (MLIR) that allows developers to write custom GPU kernels more efficiently than traditional CUDA programming.",
     "url": "https://github.com/triton-lang/triton",
-    "stars": 18433,
+    "stars": 18440,
     "language": "MLIR",
     "processed_at": "2025-12-13T00:54:29.771543"
   },
@@ -1251,7 +1251,7 @@
     "category": "Reinforcement Learning",
     "description": "FinRL is an open-source reinforcement learning framework specifically designed for financial trading, providing researchers and practitioners with tools and environments to develop and test deep reinforcement learning trading strategies across different financial markets.",
     "url": "https://github.com/AI4Finance-Foundation/FinRL",
-    "stars": 13943,
+    "stars": 13947,
     "language": "Jupyter Notebook",
     "processed_at": "2025-12-13T00:54:31.831579"
   },
@@ -1259,7 +1259,7 @@
     "category": "AI & Machine Learning",
     "description": "A Rust library providing bindings and interfaces for llama.cpp, enabling easy integration and usage of large language models in Rust projects. This allows developers to efficiently run and interact with LLM models using Rust's performance and safety features.",
     "url": "https://github.com/utilityai/llama-cpp-rs",
-    "stars": 462,
+    "stars": 464,
     "language": "Rust",
     "processed_at": "2025-12-14T01:02:35.570435"
   },
@@ -1267,7 +1267,7 @@
     "category": "AI & Machine Learning",
     "description": "A Rust library providing high-level bindings to llama.cpp, enabling developers to easily interact with and leverage large language models in Rust applications. This library offers both synchronous and asynchronous interfaces for efficient LLM integration.",
     "url": "https://github.com/edgenai/llama_cpp-rs",
-    "stars": 242,
+    "stars": 244,
     "language": "Rust",
     "processed_at": "2025-12-14T01:02:37.492362"
   },
@@ -1283,7 +1283,7 @@
     "category": "AI & Machine Learning",
     "description": "A repository exploring the application of artificial intelligence in hedge fund trading strategies, likely utilizing machine learning techniques for financial market prediction and algorithmic trading.",
     "url": "https://github.com/virattt/ai-hedge-fund",
-    "stars": 45780,
+    "stars": 45793,
     "language": "Python",
     "processed_at": "2025-12-15T00:59:53.532565"
   },
@@ -1291,7 +1291,7 @@
     "category": "Developer Tools",
     "description": "Typer is a Python library for building CLI applications with easy-to-use type hints, providing a simple and intuitive way to create command-line interfaces with automatic documentation and validation based on Python's type system.",
     "url": "https://github.com/fastapi/typer",
-    "stars": 18842,
+    "stars": 18853,
     "language": "Python",
     "processed_at": "2025-12-17T00:54:20.961589"
   },
@@ -1299,7 +1299,7 @@
     "category": "Developer Tools",
     "description": "n8n is a low-code workflow automation platform that allows developers to connect and automate tasks across multiple services and APIs with a visual builder. It offers self-hosting, extensive integration capabilities, and native AI support, making it a powerful tool for streamlining complex workflow and integration processes.",
     "url": "https://github.com/n8n-io/n8n",
-    "stars": 174818,
+    "stars": 174975,
     "language": "TypeScript",
     "processed_at": "2025-12-18T00:54:57.738823"
   },
@@ -1307,7 +1307,7 @@
     "category": "Web & Desktop Development",
     "description": "A comprehensive UI component library for React that provides beautifully-designed, accessible, and customizable components using Tailwind CSS. It simplifies building modern web interfaces by offering a flexible and developer-friendly component system.",
     "url": "https://github.com/shadcn-ui/ui",
-    "stars": 106708,
+    "stars": 106762,
     "language": "TypeScript",
     "processed_at": "2025-12-18T00:54:59.683854"
   },
@@ -1331,7 +1331,7 @@
     "category": "Developer Tools",
     "description": "fzf is a blazing-fast command-line fuzzy finder that allows users to search and filter files, command history, and other inputs interactively with high performance across multiple shells and text editors.",
     "url": "https://github.com/junegunn/fzf",
-    "stars": 77818,
+    "stars": 77838,
     "language": "Go",
     "processed_at": "2025-12-18T00:55:05.001124"
   },
@@ -1339,7 +1339,7 @@
     "category": "Developer Tools",
     "description": "Firecracker is an open-source virtualization technology that creates lightweight, secure microVMs optimized for serverless computing and container workloads. It enables fast, efficient, and isolated compute environments with minimal overhead.",
     "url": "https://github.com/firecracker-microvm/firecracker",
-    "stars": 32481,
+    "stars": 32493,
     "language": "Rust",
     "processed_at": "2025-12-18T00:55:07.040379"
   },
@@ -1347,7 +1347,7 @@
     "category": "Developer Tools",
     "description": "A comprehensive, curated collection of free public APIs across various domains, serving as a valuable resource for developers seeking accessible APIs for projects and integrations. This repository simplifies API discovery by providing an organized list of available public APIs.",
     "url": "https://github.com/public-apis/public-apis",
-    "stars": 398700,
+    "stars": 398833,
     "language": "Python",
     "processed_at": "2025-12-18T00:55:08.870352"
   },
@@ -1355,7 +1355,7 @@
     "category": "Developer Tools",
     "description": "Filestash is a versatile file management web application that provides a unified interface for accessing multiple file storage protocols like SFTP, S3, FTP, WebDAV, and Git. It offers a user-friendly, browser-based file browser and sharing solution across various storage backends.",
     "url": "https://github.com/mickael-kerjean/filestash",
-    "stars": 13632,
+    "stars": 13635,
     "language": "JavaScript",
     "processed_at": "2025-12-18T00:55:10.897644"
   },
@@ -1363,7 +1363,7 @@
     "category": "AI & Machine Learning",
     "description": "Chandra is an advanced OCR (Optical Character Recognition) model capable of processing complex documents like tables, forms, and handwritten text with comprehensive layout understanding. It provides sophisticated text extraction capabilities for document digitization and information processing tasks.",
     "url": "https://github.com/datalab-to/chandra",
-    "stars": 4822,
+    "stars": 4824,
     "language": "Python",
     "processed_at": "2025-12-20T00:54:33.419938"
   },
@@ -1371,7 +1371,7 @@
     "category": "AI & Machine Learning",
     "description": "A JavaScript implementation of JAX, enabling machine learning operations and neural network development directly in web browsers using WebGPU and WebAssembly. This library provides NumPy-like computational capabilities for web-based machine learning applications.",
     "url": "https://github.com/ekzhang/jax-js",
-    "stars": 719,
+    "stars": 720,
     "language": "TypeScript",
     "processed_at": "2025-12-20T00:54:35.559372"
   },
@@ -1379,7 +1379,7 @@
     "category": "Developer Tools",
     "description": "A Rust-based reimplementation of pre-commit, offering improved performance and functionality for managing git hooks and ensuring code quality checks before commits are made.",
     "url": "https://github.com/j178/prek",
-    "stars": 6230,
+    "stars": 6247,
     "language": "Rust",
     "processed_at": "2025-12-20T00:54:37.049039"
   },
@@ -1387,7 +1387,7 @@
     "category": "AI & Machine Learning",
     "description": "A tiny vision language model designed for compact and efficient AI vision-language tasks. This model enables image understanding and processing capabilities in a lightweight implementation.",
     "url": "https://github.com/vikhyat/moondream",
-    "stars": 9335,
+    "stars": 9339,
     "language": "Python",
     "processed_at": "2025-12-25T00:57:42.718688"
   },
@@ -1395,7 +1395,7 @@
     "category": "Developer Tools",
     "description": "Mermaid.js is a JavaScript library that allows developers to create diagrams and visualizations programmatically using text-based markdown-like syntax. It enables easy generation of flowcharts, sequence diagrams, Gantt charts, and other visual representations directly from code, enhancing documentation and communication.",
     "url": "https://github.com/mermaid-js/mermaid",
-    "stars": 86051,
+    "stars": 86076,
     "language": "TypeScript",
     "processed_at": "2025-12-25T00:57:44.710115"
   },
@@ -1411,7 +1411,7 @@
     "category": "AI & Machine Learning",
     "description": "An open source coding agent that leverages AI to assist with software development tasks, potentially generating, completing, or analyzing code using advanced language models and intelligent algorithms.",
     "url": "https://github.com/anomalyco/opencode",
-    "stars": 105604,
+    "stars": 106107,
     "language": "TypeScript",
     "processed_at": "2026-01-03T00:55:55.493302"
   },
@@ -1419,7 +1419,7 @@
     "category": "Data Science & Analytics",
     "description": "CocoIndex is a high-performance data transformation framework designed for AI applications, enabling real-time data processing, incremental indexing, and efficient data pipeline management for knowledge graph and semantic search use cases.",
     "url": "https://github.com/cocoindex-io/cocoindex",
-    "stars": 6095,
+    "stars": 6101,
     "language": "Rust",
     "processed_at": "2026-01-04T01:05:36.319001"
   },
@@ -1427,7 +1427,7 @@
     "category": "Developer Tools",
     "description": "Gluetun is a lightweight VPN client Docker container that supports multiple VPN providers and protocols, enabling developers and users to easily route network traffic through secure VPN connections with built-in DNS over TLS and proxy server capabilities.",
     "url": "https://github.com/qdm12/gluetun",
-    "stars": 13008,
+    "stars": 13025,
     "language": "Go",
     "processed_at": "2026-01-04T01:05:38.349235"
   },
@@ -1435,7 +1435,7 @@
     "category": "Developer Tools",
     "description": "Microsoft Graph SDK for Python provides developers with a library to interact with Microsoft Graph API, enabling easy integration and programmatic access to Microsoft 365 services and data. It simplifies authentication, request handling, and data retrieval for developers building applications that need to interact with Microsoft cloud services.",
     "url": "https://github.com/microsoftgraph/msgraph-sdk-python",
-    "stars": 577,
+    "stars": 578,
     "language": "Python",
     "processed_at": "2026-01-09T01:00:02.264635"
   },
@@ -1443,7 +1443,7 @@
     "category": "Developer Tools",
     "description": "FreeCAD is an open-source 3D parametric modeling software that provides engineers, architects, and designers with a powerful cross-platform CAD tool for creating complex technical designs and engineering models. It serves as a comprehensive development tool for professional and hobbyist 3D modeling and design work.",
     "url": "https://github.com/FreeCAD/FreeCAD",
-    "stars": 28609,
+    "stars": 28623,
     "language": "C++",
     "processed_at": "2026-01-09T01:00:05.794919"
   },
@@ -1451,7 +1451,7 @@
     "category": "Developer Tools",
     "description": "RustPython is an implementation of the Python programming language written in Rust, providing an alternative Python interpreter that can potentially offer performance benefits and seamless language interoperability. It aims to provide a complete Python 3 implementation that can run Python code directly within the Rust ecosystem.",
     "url": "https://github.com/RustPython/RustPython",
-    "stars": 21794,
+    "stars": 21799,
     "language": "Rust",
     "processed_at": "2026-01-10T00:57:55.666859"
   },
@@ -1459,7 +1459,7 @@
     "category": "Developer Tools",
     "description": "A lightweight authentication middleware for securing web applications using Go, offering features like two-factor authentication (2FA) and support for multiple proxy/web servers. The tool simplifies implementing secure login mechanisms for developers across different infrastructure setups.",
     "url": "https://github.com/steveiliop56/tinyauth",
-    "stars": 6956,
+    "stars": 6963,
     "language": "Go",
     "processed_at": "2026-01-10T00:57:57.942026"
   },
@@ -1467,7 +1467,7 @@
     "category": "Web & Desktop Development",
     "description": "Tailwind CSS is a utility-first CSS framework that enables developers to rapidly build custom user interfaces by composing pre-defined CSS classes directly in HTML markup. It provides a highly flexible and efficient approach to styling web applications without writing custom CSS.",
     "url": "https://github.com/tailwindlabs/tailwindcss",
-    "stars": 93548,
+    "stars": 93560,
     "language": "TypeScript",
     "processed_at": "2026-01-10T00:57:59.865239"
   },
@@ -1491,7 +1491,7 @@
     "category": "Developer Tools",
     "description": "A curated collection of public APIs that provides developers with a comprehensive resource for finding and accessing various web APIs across different domains. The repository serves as a centralized reference for developers seeking APIs for different projects and use cases.",
     "url": "https://github.com/marcelscruz/public-apis",
-    "stars": 8131,
+    "stars": 8154,
     "language": "JavaScript",
     "processed_at": "2026-01-11T01:05:08.889057"
   },
@@ -1499,7 +1499,7 @@
     "category": "AI & Machine Learning",
     "description": "Nautilus Trader is a high-performance algorithmic trading platform designed for developing and executing complex trading strategies across multiple financial markets using advanced machine learning and AI techniques. It supports extensive backtesting, trading execution, and strategy development with support for cryptocurrencies, equities, futures, and forex markets.",
     "url": "https://github.com/nautechsystems/nautilus_trader",
-    "stars": 19781,
+    "stars": 19985,
     "language": "Rust",
     "processed_at": "2026-01-11T01:05:11.631958"
   },
@@ -1507,7 +1507,7 @@
     "category": "Developer Tools",
     "description": "uv is a high-performance Python package and project management tool written in Rust, designed to dramatically speed up dependency resolution, installation, and environment management for Python developers.",
     "url": "https://github.com/astral-sh/uv",
-    "stars": 79314,
+    "stars": 79366,
     "language": "Rust",
     "processed_at": "2026-01-14T01:01:35.037009"
   },
@@ -1523,7 +1523,7 @@
     "category": "Developer Tools",
     "description": "A curated marketplace for Claude Code plugins, offering developers a centralized platform to discover and share coding-related plugins and extensions for enhanced development workflows.",
     "url": "https://github.com/obra/superpowers-marketplace",
-    "stars": 502,
+    "stars": 505,
     "language": null,
     "processed_at": "2026-01-17T00:57:34.031217"
   },
@@ -1539,7 +1539,7 @@
     "category": "AI & Machine Learning",
     "description": "Dexter is an autonomous AI agent designed for conducting deep financial research and analysis, leveraging advanced language models and AI capabilities to extract insights from financial data and sources.",
     "url": "https://github.com/virattt/dexter",
-    "stars": 15517,
+    "stars": 15600,
     "language": "TypeScript",
     "processed_at": "2026-01-23T01:00:58.806114"
   },
@@ -1547,7 +1547,7 @@
     "category": "AI & Machine Learning",
     "description": "Goose is an extensible AI agent framework written in Rust that enables users to install, execute, edit, and test AI agents with various large language models. It provides a flexible infrastructure for developing and interacting with AI agents beyond traditional code suggestion tools.",
     "url": "https://github.com/block/goose",
-    "stars": 30532,
+    "stars": 30582,
     "language": "Rust",
     "processed_at": "2026-01-24T00:58:03.047889"
   },
@@ -1555,7 +1555,7 @@
     "category": "Developer Tools",
     "description": "GitHub Copilot CLI is a terminal-based tool that integrates GitHub's AI coding assistant, allowing developers to get AI-powered command suggestions and code generation directly from their command line interface.",
     "url": "https://github.com/github/copilot-cli",
-    "stars": 8436,
+    "stars": 8459,
     "language": "Shell",
     "processed_at": "2026-01-24T00:58:04.754169"
   },
@@ -1595,7 +1595,7 @@
     "category": "Developer Tools",
     "description": "A CLI utility written in Rust that allows users to save complete web pages as a single, self-contained HTML file, preserving web content for archival, offline reading, or backup purposes.",
     "url": "https://github.com/Y2Z/monolith",
-    "stars": 14740,
+    "stars": 14743,
     "language": "Rust",
     "processed_at": "2026-01-27T01:03:42.695524"
   },
@@ -1603,7 +1603,7 @@
     "category": "AI & Machine Learning",
     "description": "A comprehensive collection of AI agent skills and capabilities across multiple platforms like Claude, Codex, Gemini, and Cursor, showcasing diverse functional skills and potential use cases for AI agents.",
     "url": "https://github.com/VoltAgent/awesome-agent-skills",
-    "stars": 7204,
+    "stars": 7328,
     "language": null,
     "processed_at": "2026-01-30T01:08:54.909413"
   },
@@ -1619,7 +1619,7 @@
     "category": "AI & Machine Learning",
     "description": "A plugin that uses Claude's agent SDK to automatically capture, compress, and inject context from coding sessions into future interactions, creating a persistent memory system for AI-assisted development.",
     "url": "https://github.com/thedotmack/claude-mem",
-    "stars": 28620,
+    "stars": 28790,
     "language": "TypeScript",
     "processed_at": "2026-02-04T01:08:17.405048"
   },
@@ -1627,7 +1627,7 @@
     "category": "Developer Tools",
     "description": "Amplifier appears to be a Microsoft repository for development tools, likely providing performance analysis, instrumentation, or optimization capabilities for software development workflows.",
     "url": "https://github.com/microsoft/amplifier",
-    "stars": 2935,
+    "stars": 2942,
     "language": null,
     "processed_at": "2026-02-04T01:08:18.922337"
   },
@@ -1643,7 +1643,7 @@
     "category": "AI & Machine Learning",
     "description": "A Microsoft repository focused on developing skills and custom agents for AI systems, providing SDKs and infrastructure to enable more flexible and capable AI agents. The project aims to enhance AI agent functionality through modular skills and custom agent development tools.",
     "url": "https://github.com/microsoft/skills",
-    "stars": 1367,
+    "stars": 1385,
     "language": "TypeScript",
     "processed_at": "2026-02-05T01:09:41.536914"
   },
@@ -1651,7 +1651,7 @@
     "category": "Developer Tools",
     "description": "Nixpkgs is the official package collection and build system for NixOS, providing a comprehensive, reproducible way to manage software packages and system configurations across different platforms. It allows developers to declaratively define, build, and share software environments with precise dependency management.",
     "url": "https://github.com/NixOS/nixpkgs",
-    "stars": 23492,
+    "stars": 23501,
     "language": "Nix",
     "processed_at": "2026-02-06T01:08:40.308591"
   },
@@ -1659,7 +1659,7 @@
     "category": "Developer Tools",
     "description": "Ghostty is a high-performance terminal emulator written in Zig that provides GPU acceleration, cross-platform support, and native UI integration. It aims to offer developers a fast and feature-rich terminal experience with modern capabilities.",
     "url": "https://github.com/ghostty-org/ghostty",
-    "stars": 43866,
+    "stars": 43946,
     "language": "Zig",
     "processed_at": "2026-02-07T01:07:43.466455"
   },
@@ -1667,7 +1667,7 @@
     "category": "AI & Machine Learning",
     "description": "OpenClaw is a personal AI assistant platform that enables users to create and customize their own AI assistant across different operating systems and platforms. It emphasizes user data ownership and provides a flexible, crustacean-themed approach to personal AI interaction.",
     "url": "https://github.com/openclaw/openclaw",
-    "stars": 201685,
+    "stars": 205419,
     "language": "TypeScript",
     "processed_at": "2026-02-07T01:07:45.333255"
   },
@@ -1675,7 +1675,7 @@
     "category": "AI & Machine Learning",
     "description": "Meetily is a privacy-focused, locally-run AI meeting assistant that provides real-time transcription, speaker diarization, and summarization using Rust, Whisper, and Ollama technologies. It enables users to generate meeting notes and transcripts without relying on cloud services.",
     "url": "https://github.com/Zackriya-Solutions/meeting-minutes",
-    "stars": 9843,
+    "stars": 9862,
     "language": "Rust",
     "processed_at": "2026-02-07T01:07:47.162197"
   },
@@ -1683,7 +1683,7 @@
     "category": "Developer Tools",
     "description": "TruffleHog is a security scanning tool that automatically searches repositories and files for exposed credentials and sensitive secrets. It helps developers and security teams proactively identify and mitigate potential security risks before they can be exploited.",
     "url": "https://github.com/trufflesecurity/trufflehog",
-    "stars": 24583,
+    "stars": 24593,
     "language": "Go",
     "processed_at": "2026-02-07T01:07:49.015043"
   },
@@ -1691,7 +1691,7 @@
     "category": "AI & Machine Learning",
     "description": "This repository provides AI agents for autonomous trading on Polymarket, enabling users to programmatically interact with prediction markets using machine learning techniques. The project aims to leverage AI to make automated trading decisions in decentralized market prediction platforms.",
     "url": "https://github.com/Polymarket/agents",
-    "stars": 2170,
+    "stars": 2180,
     "language": "Python",
     "processed_at": "2026-02-07T01:07:50.778518"
   },
@@ -1699,7 +1699,7 @@
     "category": "Data Science & Analytics",
     "description": "A comprehensive financial database containing over 300,000 financial symbols across multiple asset classes, providing researchers and analysts with extensive market data for quantitative research and financial analysis. The repository offers structured financial information that can be easily integrated into data science and financial analytics workflows.",
     "url": "https://github.com/JerBouma/FinanceDatabase",
-    "stars": 6969,
+    "stars": 6973,
     "language": "Python",
     "processed_at": "2026-02-07T01:07:53.028473"
   },
@@ -1723,7 +1723,7 @@
     "category": "Developer Tools",
     "description": "Monaspace is a specialized font family designed specifically for coding environments, providing programmers with an innovative and visually appealing monospaced typography solution that enhances code readability and aesthetic experience.",
     "url": "https://github.com/githubnext/monaspace",
-    "stars": 18430,
+    "stars": 18435,
     "language": "Shell",
     "processed_at": "2026-02-10T01:23:39.619075"
   },
@@ -1731,7 +1731,7 @@
     "category": "Developer Tools",
     "description": "A meta-prompting and context engineering system that provides powerful utilities for AI-assisted software development, enabling more structured and spec-driven code generation and interaction with AI coding models like Claude.",
     "url": "https://github.com/gsd-build/get-shit-done",
-    "stars": 14907,
+    "stars": 15354,
     "language": "JavaScript",
     "processed_at": "2026-02-10T01:23:41.347561"
   },
@@ -1739,7 +1739,7 @@
     "category": "Developer Tools",
     "description": "Backlog.md is a project management tool that facilitates collaboration between humans and AI agents by providing a markdown-based task tracking system integrated with git workflows, enhancing project coordination and task management.",
     "url": "https://github.com/MrLesk/Backlog.md",
-    "stars": 4799,
+    "stars": 4811,
     "language": "TypeScript",
     "processed_at": "2026-02-11T01:21:18.040198"
   },
@@ -1747,7 +1747,7 @@
     "category": "Web & Desktop Development",
     "description": "Pinta is an open-source, cross-platform drawing and image editing application built with GTK, providing users with a simple and intuitive interface for basic image manipulation and painting tasks.",
     "url": "https://github.com/PintaProject/Pinta",
-    "stars": 3366,
+    "stars": 3369,
     "language": "C#",
     "processed_at": "2026-02-11T01:21:19.851129"
   },
@@ -1755,7 +1755,7 @@
     "category": "AI & Machine Learning",
     "description": "Hive is a sophisticated agent development framework that enables the creation of self-improving AI agents with advanced skill evolution capabilities. It provides tools for building autonomous agents that can learn, adapt, and interact using large language models like Claude and OpenAI.",
     "url": "https://github.com/adenhq/hive",
-    "stars": 7716,
+    "stars": 7781,
     "language": "Python",
     "processed_at": "2026-02-12T01:14:10.450915"
   },
@@ -1771,8 +1771,16 @@
     "category": "Developer Tools",
     "description": "RabbitMQ is an open-source message broker that facilitates communication between distributed systems by enabling asynchronous messaging across different applications and services. It supports multiple messaging protocols and provides robust queuing and routing capabilities for complex distributed architectures.",
     "url": "https://github.com/rabbitmq/rabbitmq-server",
-    "stars": 13460,
+    "stars": 13463,
     "language": "JavaScript",
     "processed_at": "2026-02-17T01:13:25.248038"
+  },
+  "hummingbot/hummingbot": {
+    "category": "AI & Machine Learning",
+    "description": "Hummingbot is an open-source algorithmic trading platform that enables users to create and deploy automated cryptocurrency trading bots, leveraging advanced trading strategies and market-making techniques for crypto exchanges.",
+    "url": "https://github.com/hummingbot/hummingbot",
+    "stars": 17045,
+    "language": "Python",
+    "processed_at": "2026-02-18T01:15:19.691196"
   }
 }
